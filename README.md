@@ -41,7 +41,7 @@ This project is a user-friendly/Dymanic UI web interface for a loan calculator a
 
 5. Open the app in your browser:
    ```
-http://localhost:5173
+   http://localhost:5173
    ```
 
 ## Usage
