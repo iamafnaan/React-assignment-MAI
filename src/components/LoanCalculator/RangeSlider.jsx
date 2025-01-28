@@ -1,34 +1,24 @@
 
-import React from 'react';
 
-const RangeSlider = ({ 
-  label, 
-  value, 
-  onChange, 
-  min, 
-  max, 
-  displayValue, 
-  minLabel, 
-  maxLabel 
-}) => {
+import React from 'react';
+const RangeSlider = ({ label, value, onChange, min, max, displayValue, minLabel, maxLabel }) => {
   return (
-    <div className="mb-6">
-      <p className="text-slate-400 mb-2">{label}</p>
-      <p className="text-white text-xl mb-3">{displayValue}</p>
+    <div style={{ marginBottom: '24px' }}>
+      <p style={{ color: '#94A3B8', marginBottom: '8px' }}>{label}</p>
+      <p style={{ color: 'white', fontSize: '20px', marginBottom: '12px' }}>{displayValue}</p>
       <input
         type="range"
         min={min}
         max={max}
         value={value}
         onChange={onChange}
-        className="w-full h-2 bg-slate-700 rounded-lg appearance-none cursor-pointer accent-cyan-400"
+        style={{ width: '100%', height: '8px', backgroundColor: '#334155', borderRadius: '4px', cursor: 'pointer' }}
       />
-      <div className="flex justify-between text-slate-400 text-sm mt-1">
+      <div style={{ display: 'flex', justifyContent: 'space-between', color: '#94A3B8', fontSize: '14px', marginTop: '4px' }}>
         <span>{minLabel}</span>
         <span>{maxLabel}</span>
       </div>
     </div>
   );
 };
-
 export default RangeSlider;

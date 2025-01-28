@@ -1,15 +1,13 @@
 
 import React from 'react';
-
-const ApplyLoanButton = ({ onClick }) => {
+const ApplyLoan = ({ onClick }) => {
   return (
     <button
       onClick={onClick}
-      className="w-full bg-cyan-400 text-white py-4 rounded-lg font-medium hover:bg-cyan-500 transition-colors"
+      style={{ width: '100%', backgroundColor: '#22D3EE', color: 'white', padding: '16px', borderRadius: '8px', fontWeight: '500' }}
     >
       APPLY LOAN
     </button>
   );
 };
-
-export default ApplyLoanButton;
+export default ApplyLoan;

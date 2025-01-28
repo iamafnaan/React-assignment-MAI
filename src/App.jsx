@@ -1,12 +1,14 @@
-import { useState } from 'react'
-import './App.css'
+
+import LoanCalculator from './components/LoanCalculator'
 
 function App() {
   
 
   return (
     <>
-      
+      <div>
+        <LoanCalculator />
+      </div>
     </>
   )
 }

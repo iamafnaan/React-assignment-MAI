@@ -1,7 +1,5 @@
 
-
 import { useState, useEffect } from 'react';
-
 export const useLoanCalculator = () => {
   const [loanAmount, setLoanAmount] = useState(14500000);
   const [loanPeriod, setLoanPeriod] = useState(12);

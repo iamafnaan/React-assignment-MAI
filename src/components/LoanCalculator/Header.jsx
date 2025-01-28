@@ -1,18 +1,15 @@
 
-
 import React from 'react';
 import { ChevronLeft, MoreVertical } from 'lucide-react';
-
 const Header = () => {
   return (
-    <div className="flex items-center justify-between mb-6">
-      <div className="flex items-center">
-        <ChevronLeft className="w-6 h-6 text-white" />
-        <h1 className="text-xl text-white ml-2">Loan Calculator</h1>
+    <div style={{ display: 'flex', justifyContent: 'space-between', marginBottom: '24px' }}>
+      <div style={{ display: 'flex', alignItems: 'center' }}>
+        <ChevronLeft style={{ width: '24px', height: '24px', color: 'white' }} />
+        <h1 style={{ fontSize: '20px', color: 'white', marginLeft: '8px' }}>Loan Calculator</h1>
       </div>
-      <MoreVertical className="w-6 h-6 text-white" />
+      <MoreVertical style={{ width: '24px', height: '24px', color: 'white' }} />
     </div>
   );
 };
-
 export default Header;

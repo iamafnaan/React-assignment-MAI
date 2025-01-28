@@ -1,26 +1,23 @@
-import React from 'react';
-import { Card } from '@/components/ui/card';
 
-const MaximumFunding = ({ amount }) => {
-  return (
-    <Card className="bg-slate-800 p-4 mb-6 rounded-xl">
-      <p className="text-slate-400 text-sm mb-2">Maximum Funding</p>
-      <h2 className="text-2xl text-white font-bold mb-3">
-        Rp {new Intl.NumberFormat().format(amount)}
-      </h2>
-      <div className="flex justify-between items-center">
+import React from 'react';
+import { Card } from 'react-bootstrap';
+const MaximumFunding = () => (
+  <Card style={{ backgroundColor: '#2A2E37', padding: '16px', borderRadius: '16px', marginBottom: '24px', color: 'white' }}>
+    <Card.Body>
+      <p style={{ color: '#94A3B8', fontSize: '14px', marginBottom: '8px' }}>Maximum Funding</p>
+      <h2 style={{ fontSize: '24px', fontWeight: 'bold', marginBottom: '12px' }}>Rp 17,484,500</h2>
+      <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
         <div>
-          <p className="text-white">Honda ADV 150 CBS</p>
-          <p className="text-slate-400 text-sm">2022</p>
+          <p>Honda ADV 150 CBS</p>
+          <p style={{ color: '#94A3B8', fontSize: '14px' }}>2022</p>
         </div>
-        <div className="flex gap-0.5">
-          <div className="w-1 h-4 bg-cyan-400 rounded"></div>
-          <div className="w-1 h-4 bg-cyan-400 rounded"></div>
-          <div className="w-1 h-4 bg-cyan-400 rounded"></div>
+        <div style={{ display: 'flex', gap: '2px' }}>
+          {[...Array(3)].map((_, index) => (
+            <div key={index} style={{ width: '4px', height: '16px', backgroundColor: '#22D3EE', borderRadius: '2px' }} />
+          ))}
         </div>
       </div>
-    </Card>
-  );
-};
-
+    </Card.Body>
+  </Card>
+);
 export default MaximumFunding;
