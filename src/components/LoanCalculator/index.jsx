@@ -28,7 +28,7 @@ const LoanCalculator = () => {
           min={1500000}
           max={17484500}
           displayValue={`Rp ${new Intl.NumberFormat().format(loanAmount)}`}
-          minLabel="1.500.000"
+          minLabel="1.000.000"
           maxLabel="17.484.500"
         />
         <RangeSlider
