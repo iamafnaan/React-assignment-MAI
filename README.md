@@ -68,5 +68,8 @@ The components are styled using:
 - Text and labels in contrasting colors (`#94A3B8`, `white`)
 - Flexbox layouts for a clean, responsive UI
 
+Output:<img width="300" alt="Screenshot 2025-01-28 at 12 14 44 PM" src="https://github.com/user-attachments/assets/91242201-2faf-40ae-9dfc-5d6bc5387f05" />
+
+
 
 
