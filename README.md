@@ -27,9 +27,7 @@ This project is a user-friendly/Dymanic UI web interface for a loan calculator a
    ```
 
 2. Navigate to the project directory:
-   ```bash
-   cd loan-calculator-ui
-   ```
+
 
 3. Install dependencies:
    ```bash
