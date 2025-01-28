@@ -2,7 +2,7 @@
 # Loan Calculator UI
 
 ## Project Overview
-This project is a user-friendly web interface for a loan calculator application. Users can interact with adjustable sliders to customize their loan amounts and periods, view their estimated monthly installments, and get information about maximum funding.
+This project is a user-friendly/Dymanic UI web interface for a loan calculator application. Users can interact with adjustable sliders to customize their loan amounts and periods, view their estimated monthly installments, and get information about maximum funding.
 
 ## Features
 - **Maximum Funding Display:** Shows the maximum loan amount for a specific vehicle.
@@ -23,7 +23,7 @@ This project is a user-friendly web interface for a loan calculator application.
 
 1. Clone the repository:
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/iamafnaan/React-assignment-MAI.git
    ```
 
 2. Navigate to the project directory:
